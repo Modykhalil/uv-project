@@ -1,0 +1,143 @@
+body{
+    background-color: #272626;
+}
+.bg-second{
+    background-color: #302e2e
+}
+
+.bg-Mynav{
+    background-color: #ff9514e6;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+
+
+
+.about .border {
+    border-radius: 10px;
+}
+.about .border .img {
+    position:relative ;
+    top: 30px;
+    left: 20px;
+    overflow: hidden;
+}
+.about .border .img img {
+    width: 100%;
+    border-radius: 10px;
+}
+.about h2{
+    position: relative;
+    padding-left:  10px;
+    margin-bottom: 10px;
+    font-size: 34px;
+    font-family:sans-serif;
+    color:#ffffff;
+    font-weight: 600;
+}
+.about  h2::before{
+    content:' ';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    left: 0;
+    background-color: #ff8730;
+}
+.about  p{
+    font-size: 16px;
+    font-family: sans-serif;
+    font: weight 400px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+ 
+
+
+.card{
+    border: 0px;
+    margin-top:40px;
+}
+.card h5{
+    color: #ffffff;
+}
+.card p{
+    color: #ffffff;
+}
+.icon{
+    width: 3.125rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    color: white;
+}
+.card:hover img{
+    transform: scale(1.5,1.5);
+}
+.card img{
+    transition: transform 2s ease-in-out;
+}
+.card-img{
+    overflow: hidden;
+}
+.hotels h2{
+    position: relative;
+    padding-left:  10px;
+    margin-bottom: 10px;
+    font-size: 34px;
+    font-family:sans-serif;
+    color:#ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+.hotels  h2::before{
+    content:' ';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background-color: #ff8730;
+    margin:auto;
+}
+
+
+
+.restaurant h2{
+    position: relative;
+    padding-left:  10px;
+    margin-bottom: 10px;
+    font-size: 34px;
+    font-family:sans-serif;
+    color:#ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+.restaurant  h2::before{
+    content:' ';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background-color: #ff8730;
+    margin:auto;
+}
+
+
+.top-place h2{
+    position: relative;
+    padding-left:  10px;
+    margin-bottom: 10px;
+    font-size: 34px;
+    font-family:sans-serif;
+    color:#ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+.top-place  h2::before{
+    content:' ';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background-color: #ff8730;
+    margin:auto;
+}

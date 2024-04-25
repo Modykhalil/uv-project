@@ -1,0 +1,83 @@
+body {
+    background-image: url("image/pexels-murat-şahin-3522880.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;  
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%; /* Adjust as needed */
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 5px 5px 5px 7px rgba(0, 0, 0, 0.225);
+    border-radius: 10px;
+    background-color: rgba(26, 14, 51, 0.475);
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px; /* Adjust as needed */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    height: 35px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#dbb5b1f6;
+    color: #fff;
+    cursor: pointer;
+ border: 1px solid #dbb5b1f6;
+}
+
+button:hover {
+    background-color: #3333333c;
+    border: none;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        max-width: none;
+    }
+
+    input,
+    select,
+    textarea {
+        padding: 5px;
+    }
+}
